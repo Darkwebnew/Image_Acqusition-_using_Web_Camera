@@ -13,27 +13,22 @@ iv) Rotate and display the video
 Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
-<br>
-
+Use cv2.VideoCapture(0) to access web camera
 ### Step 2:
-<br>
-
+Use cv2.imread to read the video or image
 ### Step 3:
-<br>
-
+Use cv2.imwrite to save the image
 ### Step 4:
-<br>
-
+Use cv2.imshow to show the video
 ### Step 5:
-<br>
-
+End the program and close the output video window by pressing 'q'.
 ## Program:
-``` Python
+
 ### Developed By: Sriram V
 ### Register No: 21222210300
 
 ## i) Write the frame as JPG file
-
+```
 import cv2
 videoCaptureObject=cv2.VideoCapture(0)
 while(True):
@@ -42,9 +37,9 @@ while(True):
     result=False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
+```
 ## ii) Display the video
-
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -55,9 +50,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 ## iii) Display the video by resizing the window
-
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -76,9 +71,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 ## iv) Rotate and display the video
-
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -106,9 +101,8 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Darkwebnew/Image_Acqusition-_using_Web_Camera/assets/143114486/666bfb78-f0a0-46ed-bc2a-4743f9e11ba7)
 
 ### ii) Display the video
-</br>
-</br>
 
+![Screenshot 2024-03-01 204802](https://github.com/Darkwebnew/Image_Acqusition-_using_Web_Camera/assets/143114486/dc4d1bb7-9078-4de0-9eb6-145f98277abb)
 
 ### iii) Display the video by resizing the window
 </br>
