@@ -103,18 +103,12 @@ cv2.destroyAllWindows()
 ![Screenshot 2024-03-01 204802](https://github.com/Darkwebnew/Image_Acqusition-_using_Web_Camera/assets/143114486/dc4d1bb7-9078-4de0-9eb6-145f98277abb)
 
 ### iii) Display the video by resizing the window
-</br>
-</br>
 
-
+![Screenshot 2024-03-12 201039](https://github.com/Darkwebnew/Image_Acqusition-_using_Web_Camera/assets/143114486/06744f9a-c023-47e4-b095-2a6e1fd41f48)
 
 ### iv) Rotate and display the video
-</br>
-</br>
 
-
-
-
+![Screenshot 2024-03-12 201825](https://github.com/Darkwebnew/Image_Acqusition-_using_Web_Camera/assets/143114486/4025fa4c-0c50-479e-949d-d13b2ea49a2e)
 
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
