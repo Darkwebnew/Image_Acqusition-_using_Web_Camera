@@ -1,4 +1,5 @@
-# Image_Acqusition-_using_Web_Camera
+# EX-02 Image_Acqusition-_using_Web_Camera
+## Date: 23-02-2024
 ## Aim
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
